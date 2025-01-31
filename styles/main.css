@@ -1,0 +1,489 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #050109;
+}
+a {
+    text-decoration: none;
+}
+.headerDiv {
+    display: flex;
+    padding: 24px 196px;
+    height: 100px;
+    justify-content: space-between;
+}
+.siteLogoDiv {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.siteLogo {
+    width: 48px;
+    height: 48px;
+}
+.headerNavDiv {
+    display: flex;
+    gap: 16px;
+    padding: 8px 16px;
+    border: 1px solid #5C6069;
+    border-radius: 50px;
+}
+.aboutDiv {
+    padding: 8px 16px;
+    border-radius: 24px;
+    background-image: linear-gradient(0deg, #A657F8, #7039F0);
+}
+.aboutText {
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.navMenuDiv {
+    display: flex;
+    padding: 8px 16px;
+    gap: 10px;
+}
+.navMenuDiv a {
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.headerSelect {
+    background-color: unset;
+    border: none;
+    color: white;
+    outline: none;
+}
+option {
+    background-color: #050109;
+}
+.headerNavDiv :hover {
+    background-image: linear-gradient(0deg, #A657F8, #7039F0);
+}
+.arrow {
+    width: 20px;
+    height: 20px;
+}
+.headerBtnsDiv {
+    display: flex;
+    gap: 8px;
+}
+.premiumBtn {
+    padding: 8px 16px;
+    background-color: unset;
+    border: 1px solid #5C6069;
+    border-radius: 24px;
+}
+.btnText {
+    color: white;
+    font-weight: 500;
+}
+.createBtn {
+    padding: 8px 16px;
+    border-radius: 24px;
+    border: none;
+    background-image: linear-gradient(0deg, #A657F8, #7039F0);
+}
+
+.fullMainDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.unlockDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 71px;
+}
+.unlockDiv h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 68px;
+    color: #FFFFFF;
+    text-align: center;
+    max-width: 981px;
+    width: 100%;
+}
+.unlockDesc {
+    font-size: 24px;
+    line-height: 32px;
+    color: #D9DCEB;
+    text-align: center;
+    max-width: 877px;
+    width: 100%;
+}
+.unlockBtnsDiv {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.learnBtn {
+    padding: 8px 24px;
+    border: 1px solid #5C6069;
+    background-color: unset;
+    border-radius: 24px;
+    height: 51px;
+    position: relative;
+}
+.startedBtn {
+    padding: 8px 24px;
+    height: 51px;
+    background-image: linear-gradient(0deg, #A657F8, #7039F0);
+    border: none;
+    border-radius: 24px;
+}
+.newImg {
+    position: absolute;
+    left: -13px;
+    top: -15px;
+}
+.peopleIconDiv {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+.peopleIcons {
+    display: flex;
+    gap: -19px;
+}
+.peopleIcon {
+    width: 56px;
+    height: 56px;
+}
+.peopleIcon-1 {
+    margin-left: -19px;
+}
+.overText {
+    font-size: 14px;
+    line-height: 22px;
+    color: #D9DCEB;
+    width: 82px;
+}
+
+.globalImgDiv {
+    max-width: 1124px;
+    width: 100%;
+    height: 414px;
+    background-image: url("../images/global\ Img.png");
+    background-repeat: no-repeat;
+}
+
+.sitesLogosDiv {
+    display: flex;
+    gap: 24px;
+    padding: 24px 0;
+    overflow: hidden;
+}
+
+.benefitsMainDiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 96px;
+    align-items: center;
+}
+.benefitsText {
+    font-size: 48px;
+    font-weight: 600;
+    color: white;
+}
+.benefitsText u {
+    background: linear-gradient(90deg, #A657F8, #7039F0);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.benefitscardMainDiv {
+    display: flex;
+    gap: 24px;
+}
+.benefitCardDiv {
+    display: flex;
+    flex-direction: column;
+    height: 318px;
+    justify-content: flex-end;
+    position: relative;
+}
+.benefitsCarddesc {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #10121B;
+    padding: 0 32px 46px 32px;
+    height: 218px;
+    position: relative;
+}
+.benefitsCarddesc :first-child {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+.benefitsCarddesc :last-child {
+    color: #D9DCEB;
+    width: 248px;
+    text-align: center;
+}
+.benefitsCardLogoDiv {
+    display: flex;
+    padding: 20px;
+    border-radius: 72px;
+    width: fit-content;
+    position: absolute;
+    top: 60px;
+    left: 116px;
+
+}
+.benefitLogo {
+    width: 36px;
+    height: 36px;
+}
+.useDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    margin-top: 96px;
+    max-width: 1048px;
+    width: 100%;
+}
+.useText {
+    font-size: 48px;
+    font-weight: 600;
+    color: white;
+}
+.useDiv span {
+    background: linear-gradient(90deg, #A657F8, #7039F0);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.useCardMainDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 37px;
+    width: 100%;
+}
+.userLogoDiv {
+    display: flex;
+    justify-content: space-between;
+    max-width: 863px;
+    width: 100%;
+}
+.userLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #7039F0;
+    position: relative;
+}
+.userLogoImg {
+    width: 24px;
+    height: 24px;
+}
+.userCoverDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+    font-size: 8px;
+    font-weight: 900;
+    color: white;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+
+.useCardDescDiv {
+    display: flex;
+    gap: 10px;
+}
+.useCardDesc {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+.useCardDesc :first-child {
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+}
+.useCardDesc :last-child {
+    font-weight: 500;
+    color: #7A7A7A;
+    width: 247px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .headerDiv {
+        height: 151px;
+        gap: 16px;
+        flex-wrap: wrap;
+        padding: 24px 32px;
+    }
+
+    .headerBtnsDiv {
+        justify-content: flex-end;
+        width: 100%;
+    }
+
+    .unlockDiv {
+        margin-top: 20px;
+    }
+    .unlockDiv h1 {
+        max-width: 700px;
+        line-height: 48px;
+        font-size: 40px
+    }
+    .unlockDesc {
+        max-width: 642px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .globalImgDiv {
+        background-image: url("../images/global\ img\ tablet.png");
+        background-repeat: no-repeat;
+        max-width: 768px;
+    }
+    .sitesLogosDiv {
+        width: 100%;
+    }
+    .benefitsMainDiv {
+        margin-top: 88px;
+    }
+    .benefitsText {
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .benefitscardMainDiv {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .useDiv {
+        margin-top: 88px;
+    }
+    .useText {
+        font-weight: 700;
+        font-size: 32px;
+    }
+    .useCardDesc :first-child {
+        font-size: 16px;
+    }
+    .useCardDesc :last-child {
+        font-size: 14px;
+        width: 159px;
+    }
+    .userLogoDiv {
+        justify-content: space-around;
+        max-width: 704px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .headerDiv {
+        justify-content: flex-start;
+        gap: 16px;
+        flex-direction: column;
+        height: 368px;
+        padding: 24px 16px;
+    }
+    .headerNavDiv {
+        border-radius: 12px;
+        flex-direction: column
+    }
+    .aboutDiv {
+        text-align: center;
+    }
+    .navMenuDiv {
+        justify-content: center;
+    }
+    .premiumBtn, .createBtn {
+        width: 140px;
+    }
+
+    .unlockDiv {
+        margin-top: 48px;
+        align-items: center;
+    }
+    .unlockDiv h1 {
+        width: 283px;
+        line-height: 32px;
+        font-size: 24px
+    }
+    .unlockDesc {
+        line-height: 24px;
+        font-size: 16px;
+        width: 247px;
+    }
+    .headerBtnsDiv {
+        justify-content: center;
+    }
+    .globalImgDiv {
+        background-image: url("../images/global\ img\ mobile.png");
+        background-repeat: no-repeat;
+        max-width: 320px;
+        height: 130px;
+    }
+    .sitesLogosDiv {
+        width: 100%;
+    }
+    .benefitscardMainDiv {
+        flex-direction: column;
+    }
+    .benefitsText {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .benefitsMainDiv {
+        margin-top: 64px;
+    }
+    .useDiv {
+        margin-top: 64px;
+    }
+    .useText {
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .vectorLine {
+        display: none;
+    }
+    .userLogoDiv {
+        flex-direction: column;
+        gap: 24px;
+        align-items: center;
+    }
+    .userLogo {
+        width: fit-content;
+    }
+    .useCardDescDiv {
+        flex-direction: column;
+    }
+    .useCardDesc :first-child {
+        font-size: 16px;
+    }
+    .useCardDesc :last-child {
+        font-size: 14px;
+    }
+}
