@@ -131,6 +131,7 @@ option {
     position: relative;
 }
 .startedBtn {
+    width: fit-content;
     padding: 8px 24px;
     height: 51px;
     background-image: linear-gradient(0deg, #A657F8, #7039F0);
@@ -326,6 +327,507 @@ option {
     text-align: center;
 }
 
+.simpleMainDiv {
+    display: flex;
+    gap: 89px;
+    max-width: 1048px;
+    width: 100%;
+    margin-top: 96px;
+    position: relative;
+}
+.simpleMobDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    max-width: 334px;
+    width: 100%;
+    background-color: #10121B;
+    height: 722px;
+    border-radius: 12px;
+}
+.mobHeaderDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 11px;
+}
+.mobClock-loc-div {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.mobClock {
+    font-weight: 600;
+    color: white;
+}
+.wifi-batery {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+.revlyMobDiv {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+    margin-top: 5px;
+}
+.siteLogo-2 {
+    width: 34px;
+    height: 34px;
+}
+.revlyMobDiv p {
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+}
+.burgerMenu {
+    position: absolute;
+    top: 48px;
+    left: 12px;
+}
+.secureBtn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 19px;
+    border-radius: 20px;
+    background-color: #0CBC8B;
+    padding: 8px 24px;
+    border: none;
+}
+.secureBtn a {
+    font-weight: 600;
+    line-height: 20px;
+    color: white;
+}
+.stopDiv {
+    margin-top: 33px;
+    position: relative;
+}
+.purpleStopDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 129px;
+    width: 103px;
+    height: 103px;
+    background-image: linear-gradient(45deg, #A657F8, #7039F0);
+    position: absolute;
+    top: 17px;
+    left: 17px;
+}
+.stopText {
+    font-weight: 600;
+    color: white;
+}
+.timeMobText {
+    margin-top: 45px;
+    font-weight: 600;
+    color: #F8F8F8;
+}
+.connectedBtn {
+    padding: 8px 24px;
+    border-radius: 12px;
+    background-color: #0CBC8B;
+    border: none;
+    margin-top: 48px;
+}
+.connectedBtn a {
+    font-weight: 600;
+    color: white;
+}
+.nigeriaDiv {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-weight: 600;
+    color: white;
+    margin-top: 19px;
+}
+.nigeria {
+    width: 25px;
+    height: 19px;
+}
+.fastestDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11px;
+    width: 100%;
+    background-color: #0BAB7E;
+    border-top-right-radius: 32px;
+    border-top-left-radius: 32px;
+    height: 87px;
+    position: absolute;
+    bottom: 0;
+    padding-top: 5px;
+}
+.lineDiv {
+    width: 41px;
+    height: 4px;
+    border-radius: 16px;
+    background-color: #D9D9D9;
+}
+.serverDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 282px;
+    height: 45px;
+    background-color: white;
+    border-radius: 12px;
+}
+.fastestText {
+    width: 114px;
+    font-weight: 600;
+}
+.signalDiv {
+    display: flex;
+    font-weight: 600;
+}
+.down-up-mainDiv {
+    height: 123px;
+    background-color: white;
+    padding: 0 24px;
+    display: flex;
+    gap: 38px;
+    align-items: center;
+    border-radius: 12px;
+    position: absolute;
+    bottom: 107px;
+    left: 177px;
+}
+.download-uploadDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    font-weight: 600;
+}
+.download-arrow {
+    display: flex;
+    width: 151px;
+    justify-content: space-between;
+}
+.simpletextDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    height: fit-content;
+    position: absolute;
+    top: 149px;
+    right: 0;
+}
+.simpletextDiv :first-child {
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+}
+.usefulText {
+    background: linear-gradient(90deg, #A657F8, #7039F0);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.simpletextDiv :nth-child(2) {
+    font-size: 24px;
+    color: #D9DCEB;
+    max-width: 625px;
+    width: 100%;
+}
+.learnMoreBtn {
+    padding: 8px 24px;
+    border: 1px solid #5C6069;
+    border-radius: 24px;
+    background-color: unset;
+    width: fit-content;
+}
+.learnMoreBtn :first-child {
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+}
+
+.galaxyDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    margin-top: 152px;
+}
+.galaxyDiv :first-child {
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+}
+.galaxyText {
+    background: linear-gradient(90deg, #A657F8, #7039F0);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.loremGalaxy {
+    font-weight: 500;
+    color: #7A7A7A;
+    max-width: 793px;
+    width: 100%;
+}
+.plansBtn {
+    position: relative;
+    padding: 8px 24px;
+    border-radius: 24px;
+    border: 1px solid #5C6069;
+    background: linear-gradient(90deg, #A657F8, #7039F0);
+}
+.plansBtn :first-child {
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+}
+.Crown {
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    top: -18px;
+    left: -18px;
+}
+.cosmosBackDiv {
+    max-width: 1048px;
+    width: 100%;
+    height: 536px;
+    margin-top: 40px;
+    background-image: url("../images/cosmosBack.png");
+    background-repeat: no-repeat;
+}
+
+
+.costumersDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 84px;
+    max-width: 1048px;
+    width: 100%;
+    margin-top: 96px;
+}
+.costumerTitle {
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+.costumersCardsMainDiv {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.costumerCard {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 48px 24px 24px 24px;
+    background-color: #10121B;
+    border-radius: 12px;
+    position: relative;
+}
+.costumerImg {
+    position: absolute;
+    top: -32px;
+    left: 97px;
+}
+.costumerName {
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+.costumerDesc {
+    font-weight: 500;
+    font-size: 14px;
+    color: #7A7A7A;
+    line-height: 18px;
+    width: 202px;
+    text-align: center;
+}
+.number {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    bottom: -13px;
+    right: -12px;
+}
+.number-66 {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: -13px;
+    left: -7px;
+}
+.costumer-99 {
+    top: 72px;
+}
+.saysText {
+    background: linear-gradient(90deg, #A657F8, #7039F0);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.incomeMainDiv {
+    max-width: 1148px;
+    width: 100%;
+    height: 527px;
+    margin-top: 168px;
+    background-image: url("../images/income\ back\ img\ .png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.incomeDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 32px 40px;
+    background-color: #10121B1A;
+    backdrop-filter: blur(8.75px);
+    max-width: 737px;
+    width: 100%;
+    border-radius: 16px;
+    border: 2px solid var(--gradient, #7039F0);
+}
+.incomeTitle {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: white;
+    max-width: 462px;
+    width: 100%;
+}
+.incomeDesc {
+    font-size: 24px;
+    color: #D9DCEB;
+    line-height: 32px;
+    max-width: 473px;
+    width: 100%;
+}
+
+.whyUsDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    max-width: 1048px;
+    width: 100%;
+    height: 797px;
+    margin-top: 96px;
+    background-image: url("../images/iphone\ img\ .png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    position: relative;
+}
+.whyText {
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+.whySpan {
+    background: linear-gradient(90deg, #A657F8, #7039F0);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.whyDescDiv {
+    display: flex;
+    gap: 8px;
+    padding: 24px 32px;
+    align-items: center;
+    width: fit-content;
+    color: white;
+    border-radius: 12px;
+    position: absolute;
+}
+.whyIcon {
+    width: 32px;
+    height: 32px;
+}
+.logsDiv {
+    top: 80px;
+    left: 165px;
+    background: linear-gradient(323deg, rgba(0, 255, 107, 0.08) 0%, rgba(0, 0, 0, 0.00) 47.43%), #10121B;
+}
+.globalDiv {
+    left: 78px;
+    top: 249px;
+    background: linear-gradient(271deg, rgba(0, 255, 107, 0.12) 0.59%, rgba(0, 0, 0, 0.00) 75.31%), #10121B;
+}
+.hideDiv {
+    left: 134px;
+    bottom: 262px;
+    background: linear-gradient(262deg, rgba(0, 255, 107, 0.05) 6.8%, rgba(0, 0, 0, 0.00) 34.32%), #10121B;
+}
+.protectDiv {
+    background: linear-gradient(256deg, rgba(0, 255, 107, 0.06) 1.44%, rgba(0, 0, 0, 0.00) 39.91%), #10121B;
+    left: 61px;
+    bottom: 65px;
+}
+.deviceDiv {
+    top: 131px;
+    right: 85px;
+    background: linear-gradient(78deg, rgba(0, 255, 107, 0.12) 1.71%, rgba(0, 255, 107, 0.08) 1.71%, rgba(0, 0, 0, 0.00) 24.85%), #10121B;
+}
+.splitDiv {
+    top: 327px;
+    right: 195px;
+    background: linear-gradient(90deg, rgba(0, 255, 107, 0.12) 8.41%, rgba(0, 0, 0, 0.00) 100%), #10121B;
+}
+.supDiv {
+    right: 147px;
+    bottom: 206px;
+    background: linear-gradient(101deg, rgba(0, 255, 107, 0.05) 4.3%, rgba(0, 0, 0, 0.00) 38.52%), #10121B;
+}
+.vpnDiv {
+    right: 209px;
+    bottom: -18px;
+    background: linear-gradient(109deg, rgba(0, 255, 107, 0.06) 6.68%, rgba(0, 0, 0, 0.00) 38.09%), #10121B;
+}
+
+.footerDiv {
+    display: flex;
+    margin-top: 228px;
+    padding: 40px 200px;
+    justify-content: space-between;
+}
+.footerNavList {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.footerNavList :first-child {
+    font-weight: 500;
+    color: white;
+}
+.footerNavList a {
+    color: #7A7A7A;
+    font-weight: 500;
+}
+.followDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.followDiv p {
+    font-weight: 500;
+    color: white;
+}
+.socialIconDiv {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.socialIcon {
+    width: 24px;
+    height: 24px;
+}
+
+
 
 
 
@@ -398,6 +900,105 @@ option {
     .userLogoDiv {
         justify-content: space-around;
         max-width: 704px;
+    }
+    .simpleMainDiv {
+        align-items: center;
+        flex-direction: column;
+        max-width: 704px;
+        margin-top: 89px;
+    }
+    .simpletextDiv {
+        position: static;
+        order: -1;
+        align-items: center;
+    }
+    .simpletextDiv :first-child {
+        font-size: 32px;
+    }
+    .simpletextDiv :nth-child(2) {
+        font-size: 16px;
+    }
+    .learnMoreBtn :first-child {
+        font-size: 16px;
+    }
+    .down-up-mainDiv {
+        left: auto;
+        right: 0;
+        bottom: 108px;
+    }
+    .galaxyDiv :first-child {
+        font-size: 32px;
+    }
+    .loremGalaxy {
+        max-width: 594px;
+    }
+    .plansBtn :first-child {
+        font-size: 16px;
+    }
+    .cosmosBackDiv {
+        max-width: 704px;
+        background-image: url("../images/cosmosBack\ tablet.png");
+        background-repeat: no-repeat;
+    }
+    .costumersDiv {
+        max-width: 704px;
+        gap: 50px;
+    }
+    .costumer-99 {
+        top: auto;
+    }
+    .costumerTitle {
+        font-size: 32px;
+    }
+    .costumersCardsMainDiv {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .costumerDesc {
+        width: 260px;
+    }
+    .costumerImg {
+        left: 120px;
+    }
+    .incomeMainDiv {
+        background-position: bottom;
+        max-width: 704px;
+        margin-top: 88px;
+        height: 779px
+    }
+    .whyUsDiv {
+        height: 785px;
+        max-width: 704px;
+    }
+    .logsDiv {
+        left: 58px;
+    }
+    .globalDiv {
+        left: 12px;
+    }
+    .hideDiv {
+        left: 12px;
+    }
+    .protectDiv {
+        bottom: 15px;
+        left: 0;
+    }
+    .deviceDiv {
+        top: 105px;
+        right: 0;
+    }
+    .splitDiv {
+        right: 20px;
+    }
+    .supDiv {
+        right: 0;
+    }
+    .vpnDiv {
+        right: 28px;
+    }
+    .footerDiv {
+        margin-top: 200px;
+        padding: 40px 32px;
     }
 }
 
@@ -485,5 +1086,131 @@ option {
     }
     .useCardDesc :last-child {
         font-size: 14px;
+    }
+    .simpleMainDiv {
+        height: 1021px;
+        flex-direction: column;
+        max-width: 288px;
+        margin-top: 64px
+    }
+    .simpleMobDiv {
+        position: absolute;
+        bottom: 0;
+    }
+    .simpletextDiv {
+        top: 0;
+        right: auto;
+        align-items: center;
+    }
+    .simpletextDiv :first-child {
+        font-size: 24px;
+        text-align: center;
+        width: 274px;
+    }
+    .simpletextDiv :nth-child(2) {
+        font-size: 16px;
+    }
+    .learnMoreBtn :first-child {
+        font-size: 16px;
+    }
+    .down-up-mainDiv {
+        gap: 26px;
+        padding: 0 16px;
+        height: 85px;
+    }
+    .download-uploadDiv {
+        gap: 13px;
+        font-size: 10px
+    }
+    .download-arrow {
+        width: 103px;
+    }
+    .down-up-mainDiv {
+        bottom: 119px;
+        left: 11px;
+    }
+    .galaxyDiv :first-child {
+        font-size: 24px;
+    }
+    .loremGalaxy {
+        width: 248px;
+    }
+    .plansBtn :first-child {
+        font-size: 16px;
+    }
+    .cosmosBackDiv {
+        width: 288px;
+        height: 395px;
+        background-image: url("../images/cosmosBack\ mobile.png");
+        background-repeat: no-repeat;
+    }
+    .costumersDiv {
+        margin-top: 64px;
+        gap: 50px;
+        width: 288px;
+    }
+    .costumerTitle {
+        font-size: 24px;
+    }
+    .costumersCardsMainDiv {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .costumer-99 {
+        top: auto;
+    }
+    .incomeMainDiv {
+        height: 565px;
+        max-width: 288px;
+        margin-top: 64px;
+        background-image: url("../images/income\ back\ mobile.png");
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    .incomeDiv {
+        max-width: 288px;
+    }
+    .incomeTitle {
+        font-size: 24px;
+        line-height: 32px;
+        width: 231px;
+    }
+    .incomeDesc {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .startedBtn {
+        width: 100%;
+    }
+    .whyUsDiv {
+        width: 288px;
+        height: 1546px;
+        gap: 12px;
+        background-image: url("../images/iphone\ back\ mobile.png");
+        background-repeat: no-repeat;
+        background-position: bottom;
+        margin-top: 64px;
+    }
+    .whyDescDiv {
+        position: static;
+        width: 100%;
+    }
+    .whyText {
+        margin-bottom: 40px;
+    }
+
+
+    .footerDiv {
+        align-items: center;
+        gap: 32px;
+        flex-direction: column;
+        padding: 40px 32px;
+        margin-top: 200px;
+    }
+    .footerNavList {
+        align-items: center;
+    }
+    .followDiv {
+        align-items: center;
     }
 }
